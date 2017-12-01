@@ -4,6 +4,9 @@ html {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+}
+body {
+  justify-content: center;
   text-align: center;
 }
 header {
@@ -14,6 +17,7 @@ header {
   width: 100%;
   align-items: center;
   z-index: 1;
+  background-color: black;
 }
 header img {
   height: 50px;
@@ -29,4 +33,25 @@ nav span {
 }
 a {
   color: seashell;
+}
+
+
+.main {
+  border: 1px solid white;
+  padding-top: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mission {
+  height: 700px;
+  display: flex;
+  background-image: url(./images/mission.jpg);
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  background-color: black;
+  width: 100%
 }
