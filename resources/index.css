@@ -4,9 +4,6 @@ html {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-}
-body {
-  justify-content: center;
   text-align: center;
 }
 header {
@@ -16,6 +13,7 @@ header {
   height: 69px;
   width: 100%;
   align-items: center;
+  justify-content: center;
   z-index: 1;
   background-color: black;
 }
@@ -37,21 +35,38 @@ a {
 
 
 .main {
-  border: 1px solid white;
   padding-top: 69px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 1200px;
+  margin: auto;
 }
+
 #mission {
   height: 700px;
   display: flex;
   background-image: url(./images/mission.jpg);
-  width: 1200px;
-  align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 70px;
 }
 .text {
   background-color: black;
-  width: 100%
+  width: 100%;
+  margin: auto;
+}
+
+#TotM {
+  width: 1000px;
+  margin: auto;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 70px;
+}
+.piece {
+  width: 300px;
+}
+.piece img {
+  height: 200px;
 }
